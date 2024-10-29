@@ -1,0 +1,30 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:40725",
+      "sslPort": 44394
+    }
+  },
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:8080",
+      "sslPort": 7172,
+      "useSSL": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LOGGING_LEVEL": "Information",
+        "PAGE_URL": "https://localhost:3000",
+        "MAIL_SMTP_SERVER": "smtp.gmail.com",
+        "MAIL_SMTP_PORT": "465",
+        "MAIL_FROM_EMAIL": "info@adhdTimeOrganizer.com"
+      }
+    }
+  }
+}
